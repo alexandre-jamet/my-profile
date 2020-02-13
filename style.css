@@ -1,0 +1,124 @@
+/* Colors and font */
+
+body {
+	background: rgb(230, 230, 230);
+	color: rgb(30, 30, 30);
+	font-family: 'Libre Baskerville', serif;
+	font-size: 17px;
+}
+
+h1 {
+	font-family: 'Poppins', sans-serif;
+	color: #3e432e;
+	font-size: 40px;
+	font-weight: 100;
+}
+
+h2 {
+	font-family: 'Arvo', serif;
+	color: #207561;
+	font-size: 20px;
+}
+
+a {
+	font-family: 'Rubik', sans-serif;
+	color: #207561;
+	text-decoration: none;
+
+}
+a:hover {
+	color: #c4f0c5;
+}
+
+div {
+	width: 600px;
+	margin: 0 auto;
+	background: white;
+	padding: 30px;
+	border-radius: 4px;
+	box-shadow: 0 10px 30px rgba(0, 0, 0, .1)
+}
+
+/*Custom design with class*/
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+.header-1 {
+	box-shadow: 0px 10px 10px rgb(0, 0, 0, 0, 15);
+	background: white;
+	border-radius: 4px;
+	padding: 40px;
+	text-align: center;
+	margin-top: 25px;
+	border: 1px solid lightgrey;
+}
+
+.header-2 {
+	box-shadow: 0px 10px 10px rgb0, 0, 0, 0, 15);
+	border-radius: 4px;
+	padding: 40px;
+	text-align: center;
+	background: white;
+	margin-top: 25px;
+	border: 1px solid lightgrey;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 50px;
+}
+
+.btn-black {
+	background-color: #252525;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+.btn-black:hover {
+	background-color: #4a4a48;
+	color: white;
+}
+
+/*Design adjustements using id*/
+
+#photo {
+	width: 180px;
+	border-radius: 50%; 
+}
+
+#introduction p {
+	margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+
